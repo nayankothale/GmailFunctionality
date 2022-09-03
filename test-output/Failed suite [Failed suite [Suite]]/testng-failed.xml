@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Failed suite [Suite]]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="ChromeTest(failed)(failed)(failed)">
+    <parameter name="browsername" value="Firefox"/>
+    <classes>
+      <class name="com.SauceDemo.TestClasses.T002VerifyLogoutFunctionality">
+        <methods>
+          <include name="logoutFunctionality"/>
+          <include name="tearDown"/>
+          <include name="setUpMethod"/>
+        </methods>
+      </class> <!-- com.SauceDemo.TestClasses.T002VerifyLogoutFunctionality -->
+      <class name="com.SauceDemo.TestClasses.T003VerifyAddToCartFunctionality">
+        <methods>
+          <include name="singleProductAddToCartFunctionality"/>
+          <include name="tearDown"/>
+          <include name="setUpMethod"/>
+        </methods>
+      </class> <!-- com.SauceDemo.TestClasses.T003VerifyAddToCartFunctionality -->
+      <class name="com.SauceDemo.TestClasses.T001VerifyLoginFunctionality">
+        <methods>
+          <include name="loginFunctionality"/>
+          <include name="tearDown"/>
+          <include name="setUpMethod"/>
+        </methods>
+      </class> <!-- com.SauceDemo.TestClasses.T001VerifyLoginFunctionality -->
+    </classes>
+  </test> <!-- ChromeTest(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [Suite]]] -->
